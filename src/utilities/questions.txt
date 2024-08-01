@@ -1,0 +1,119 @@
+Getting to know your skin
+
+Q.1) How Young is your skin?
+a)  below 18
+b) 18 to 24
+c) 25 to 34
+d) 35 to 44
+e) 45+
+
+Q.2) What's your skin type?
+a) Oily 
+b) Dry and tight
+c) Combination 
+d) Sensitive and Reactive
+e) Normal
+
+Q.4) Which of these best describes your skin tone?
+a) Fair or light
+b) Medium or Wheatish
+c) Tan or caramel
+d) Deep or rich
+
+Your Skin concern is our Concern
+Q.3) What are your top skin concerns? [you can select up to 3]
+a) Acne or breakouts
+b) Fine lines and wrinkles
+c) Dark spots or pigmentation or uneven skin tone
+d) Dryness or flakiness
+e) Redness or sensitivity
+Q.4) Do you have any specific skin conditions?
+a) Eczema
+b) Rosacea
+c) Psoriasis
+d) None
+
+My Customers Habits and lifestyle
+Q.5) What’s your approach to sun protection?
+a) Never leave the house without SPF
+b) only on sunny days
+c) Occasionally 
+d) Rarely use sunscreen
+
+Q.6) How much sleep do you get on average?
+a) Less than 5 hours
+b) 5-7 hours
+c) 7-9 hours
+d) More than 9 hours
+
+Skincare Preferences
+Q.7) Do you prefer fragrance-free Skincare?
+a) Yes
+b) No
+c) No preference
+
+Q.8) What type of skincare do you usually prefer?
+a) Creams and lotions
+b) Gels and serums
+c) Oils
+d) No preference
+
+Customer’s Personality (We love to know you)
+Q.9) Which one of the below best describes your skincare approach?
+a) Minimalist: Less is more
+b) Experimental: Love trying new products
+c) Natural: Prefer organic and natural ingredients
+d) High-tech: Trust in advanced formulas and ingredients
+
+Q.10) If your skin had a superpower, what would it be?
+a) Self-hydrating
+b) Acne-busting
+c) Glow-inducing
+d) Age-reversing
+
+Q.11) Imagine your skin is a garden. What does it need most right now?
+a) More sunshine (brightening)
+b) A gentle breeze (soothing)
+c) Extra watering (hydration)
+d) Fertilizer (nourishment)
+
+
+
+
+
+
+
+
+const handleSendMessage = () => {
+    const response = responses[inputValue.toLowerCase()] || 'Sorry, I didn\'t understand that. Can you please rephrase?';
+    setMessages((prevMessages) => [...prevMessages, inputValue, response]);
+    setInputValue('');
+  };
+
+  const handleToggleChatbot = () => {
+    setIsChatbotOpen(!isChatbotOpen);
+  };
+
+
+  const responses = {
+    // Greetings
+    "hello": "Hi there! I'm your skin care assistant. How can I help you today?",
+    "hi": "Hey! I'm here to help with all your skin care questions. What's on your mind?",
+    "hey": "Hi! I'm your go-to skin care expert. What do you need help with?",
+  
+    // Skin care questions
+    "what is the best moisturizer for dry skin": "For dry skin, I recommend using a moisturizer that's rich in emollients and humectants. Some great options include Cetaphil Moisturizing Cream, Neutrogena Hydro Boost Water Gel, and CeraVe Moisturizing Cream.",
+    "how to get rid of acne": "Acne can be frustrating! To help get rid of acne, try using a gentle cleanser containing salicylic acid or benzoyl peroxide. Also, make sure to exfoliate regularly and use a spot treatment containing tea tree oil or aloe vera.",
+    "what is the best sunscreen for sensitive skin": "For sensitive skin, I recommend using a sunscreen that's fragrance-free and hypoallergenic. Some great options include EltaMD UV Clear Broad-Spectrum SPF 46, La Roche-Posay Anthelios Melt-In Sunscreen Milk, and CeraVe Sunscreen Lotion SPF 50.",
+  
+    // Product recommendations
+    "what skin care products do you recommend": "I recommend using a gentle cleanser, a nourishing moisturizer, and a broad-spectrum sunscreen daily. Some great products include Cetaphil Gentle Skin Cleanser, Neutrogena Hydro Boost Water Gel, and EltaMD UV Clear Broad-Spectrum SPF 46.",
+    "what is the best face mask for dry skin": "For dry skin, I recommend using a face mask that's hydrating and nourishing. Some great options include Laneige Water Bank Hydrating Mask, Dr. Jart+ Dermaclar Clearing Solution Mask, and Glamglow Thirstymud Hydrating Mask.",
+  
+    // General questions
+    "what is your purpose": "I'm here to help you with all your skin care questions and concerns! Whether you're looking for product recommendations, skin care tips, or just need some advice, I'm here to assist you.",
+    "how do you work": "I'm a chatbot powered by AI, which means I can understand and respond to your questions and concerns in a conversational way. I've been trained on a vast amount of skin care knowledge, so you can trust my responses are accurate and helpful!",
+  
+    // Default response
+    default: "Sorry, I didn't quite understand that. Could you please rephrase or ask a different question?",
+  };
