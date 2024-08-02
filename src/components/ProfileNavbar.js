@@ -39,7 +39,7 @@ const ProfileNavbar = () => {
       <nav className='flex fixed h-24 w-full top-0 z-[9999] items-center justify-between flex-wrap bg-[#02030a] p-0 pr-10 lg:p-2'>
                 <div className="flex items-center lg:h-16 flex-shrink-0 text-white lg:mr-8">
                     {/* <img className='w-28 block ' src={logo} alt="" />  */}
-                    <span style={{fontFamily: "'Cinzel', serif"}} className="font-semibold italic text-3xl tracking-tight hidden lg:block">Dermislumina</span>
+                    <span style={{fontFamily: "'Cinzel', serif"}} className="font-semibold italic text-3xl tracking-tight">Dermislumina</span>
                 </div>
 
                 <div className={`${isOpen ? `block` : `hidden`} w-full block ml-6 mb-4 lg:mb-0 flex-grow lg:flex lg:items-center lg:w-auto lg:text-right`}>

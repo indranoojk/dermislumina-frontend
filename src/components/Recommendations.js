@@ -1270,20 +1270,20 @@ const Recommendations = () => {
 
   return (
     <>
-      <div className="pt-20 m-16">
-        <h1 className="text-5xl font-bold underline underline-offset-8" style={{ fontFamily: "'Cinzel', serif" }}>Recommended Skin Care:</h1>
+      <div className="m-8 -mt-16 lg:pt-20 lg:m-16">
+        <h1 className="text-4xl lg:text-5xl font-bold underline underline-offset-8" style={{ fontFamily: "'Cinzel', serif" }}>Recommended Skin Care:</h1>
       </div>
 
-      <div className=" m-16 rounded-3xl text-center text-white" style={{ backgroundImage: `url(${'https://images.pexels.com/photos/3733925/pexels-photo-3733925.jpeg?auto=compress&cs=tinysrgb&w=1280'})` }}>
+      <div className="lg:m-16 rounded-3xl text-center text-white" style={{ backgroundImage: `url(${'https://images.pexels.com/photos/3733925/pexels-photo-3733925.jpeg?auto=compress&cs=tinysrgb&w=1280'})` }}>
 
         <div className="">
           <p>{handleClickResults()}</p>   <br />
         </div>
       </div>
 
-      <div className="m-16">
-        <h1 className="text-3xl m-4 text-green-600 font-bold" style={{fontFamily: "'Dancing Script', cursive"}}>TRENDING SKINCARE ROUNTINE THAT CAN BE USED ON DAILY BASIS 😊:-</h1>
-        <div className="grid grid-rows-2 grid-cols-2 gap-x-4 gap-y-4">
+      <div className="lg:m-16">
+        <h1 className="text-2xl lg:text-3xl m-4 text-green-600 font-bold" style={{fontFamily: "'Dancing Script', cursive"}}>TRENDING SKINCARE ROUNTINE THAT CAN BE USED ON DAILY BASIS 😊:-</h1>
+        <div className="lg:grid lg:grid-rows-2 lg:grid-cols-2 lg:gap-x-4 lg:gap-y-4">
           <div className="p-5 rounded-3xl bg-yellow-200 row-start-1">
             <h2 className="text-2xl font-bold font-serif">Morning Routine:</h2>
             <p className="p-5 text-lg">
@@ -1318,8 +1318,8 @@ const Recommendations = () => {
         </div>
 
         <div className="text-center p-10">
-          <h2 className="text-xl">SPECIAL NOTE BECAUSE WE CARE ABOUT YOU😊:- </h2>
-          <p className="font-semibold text-2xl" style={{ fontFamily: "'Cinzel', serif" }}>“Remember FRIEND , consistency is key, and always patch-test new products and ingredients to ensure they work well with your skin….”</p>
+          <h2 className="text-lg lg:text-xl">SPECIAL NOTE BECAUSE WE CARE ABOUT YOU😊:- </h2>
+          <p className="font-semibold text-xl lg:text-2xl" style={{ fontFamily: "'Cinzel', serif" }}>“Remember FRIEND , consistency is key, and always patch-test new products and ingredients to ensure they work well with your skin….”</p>
         </div>
       </div>
 

@@ -43,7 +43,7 @@ const NoteItem = (props) => {
         <div className='grid-flow-row'>
           <div className='lg:m-16'>
             {/* <div className={"card-body lg:w-[80%] border-2 border-black p-8 rounded-xl shadow-md shadow-black space-y-4 bg-gray-300 overflow-x-scroll"}> */}
-            <div className="card-body lg:w-[80%] border-2 border-black p-8 rounded-xl shadow-md shadow-black space-y-4 bg-gray-300 container mx-auto">
+            <div className="card-body lg:w-[80%] border-2 mb-8 lg:mb-0 border-black p-8 rounded-xl shadow-md shadow-black space-y-4 bg-gray-300 container mx-auto">
               <div className="float-right">
                 <i className="fa-solid fa-trash-can mx-2 cursor-pointer" onClick={handleDelete}>   <span className='ml-1 text-red-600 hover:text-red-700 text-xl font-bold'>Delete</span> </i>
               </div>

@@ -8,7 +8,7 @@ const Profile = () => {
     <>
       <ProfileNavbar />
 
-      <div className="text-xl lg:p-10 lg:text-3xl ml-10 lg:ml-0 mt-4 font-semibold italic font-serif text-center">
+      <div className="p-4 lg:p-10 text-3xl ml-5 lg:ml-0 mt-4 font-semibold italic font-serif text-center">
         <span className=''>Hello! Dear User 😊</span>
       </div>
 

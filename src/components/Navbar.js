@@ -15,12 +15,12 @@ const Navbar = () => {
   return (
     <>
         {/* Navbar Starts here */}
-        <nav className='flex lg:fixed lg:w-full lg:h-24 lg:top-0 lg:z-[9999] items-center justify-between flex-wrap bg-[#02030a] p-0 pr-10 lg:p-2 mt-0 mb-20'>
+        <nav className='flex lg:fixed lg:w-full lg:h-24 lg:top-0 lg:z-[9999] items-center justify-between flex-wrap bg-[#02030a] p-4 pr-10 lg:p-2 mt-0'>
             {/* Logo and Nav title */}
             <Link to='/'>
                 <div className="flex items-center lg:h-16 flex-shrink-0 text-white lg:mr-8">
                     {/* <img className='w-28 block ' src={logo} alt="" />  */}
-                    <span style={{fontFamily: "'Cinzel', serif"}} className="font-semibold italic text-3xl tracking-tight hidden lg:block">Dermislumina</span>
+                    <span style={{fontFamily: "'Cinzel', serif"}} className="font-semibold italic text-3xl tracking-tight">Dermislumina</span>
                 </div>
             </Link>
 

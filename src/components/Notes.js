@@ -28,7 +28,7 @@ const Notes = (props) => {
 
             <div className="" style={{ backgroundImage: `url(${'https://images.pexels.com/photos/688830/pexels-photo-688830.jpeg?auto=compress&cs=tinysrgb&w=1280'})` }}>
                 <div className='m-8 mb-0 pb-40 relative'>
-                    <div className='text-5xl pl-10 pt-10 font-bold font-serif text-white '>
+                    <div className='text-4xl lg:text-5xl lg:pl-10 pt-10 font-bold font-serif text-white '>
                         Personalised Skincare Routine
                     </div>
 
