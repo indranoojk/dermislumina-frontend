@@ -22,7 +22,7 @@ const Home = () => {
             </Link>
         </div>
 
-        <div className=" grid grid-cols-1 lg:grid lg:grid-cols-2">
+        <div className="grid grid-cols-1 lg:grid lg:grid-cols-2">
             {/* row 1 */}
             <div className="lg:pl-5 row-start-2 lg:row-span-1 text-center">
                 <h1 className="text-4xl lg:text-6xl lg:pt-52 p-5" style={{fontFamily: "'Cinzel', serif"}}>"Healthy skin is a reflection of overall wellness."</h1>
