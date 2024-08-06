@@ -74,9 +74,11 @@ const Chatbot = () => {
     "what causes dry skin?": "Dry skin can be caused by several factors, including cold weather, low humidity, frequent bathing, and certain medications.",
     "what causes dry skin": "Dry skin can be caused by several factors, including cold weather, low humidity, frequent bathing, and certain medications.",
     "causes of dry skin": "Dry skin can be caused by several factors, including cold weather, low humidity, frequent bathing, and certain medications.",
+    "dry skin": "Dry skin can be caused by several factors, including cold weather, low humidity, frequent bathing, and certain medications.",
     "what can i do to reduce skin redness?": "To reduce skin redness, use gentle, fragrance-free skincare products. Avoid harsh exfoliants and hot water. Products containing green tea or aloe vera can help soothe irritated skin.",
     "what causes skin redness?": "Skin redness can be caused by various factors, including sensitive skin, rosacea, allergies, and sun exposure.", 
     "causes of skin redness": "Skin redness can be caused by various factors, including sensitive skin, rosacea, allergies, and sun exposure.", 
+    "skin redness": "Skin redness can be caused by various factors, including sensitive skin, rosacea, allergies, and sun exposure.", 
 
 
 
