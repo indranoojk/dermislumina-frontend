@@ -11,7 +11,7 @@ const Recommendations = () => {
   const handleClickResults = () => {
     if (selectedAge === 'below 18' && selectedConcern === 'acne') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -59,7 +59,7 @@ const Recommendations = () => {
 
     else if (selectedAge === 'below 18' && selectedConcern === 'fineLines') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -106,7 +106,7 @@ const Recommendations = () => {
 
     else if (selectedAge === 'below 18' && selectedConcern === 'darkSpots') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -150,7 +150,7 @@ const Recommendations = () => {
 
     else if (selectedAge === 'below 18' && selectedConcern === 'dryness') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -197,7 +197,7 @@ const Recommendations = () => {
 
     else if (selectedAge === 'below 18' && selectedConcern === 'redness') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -244,7 +244,7 @@ const Recommendations = () => {
 
     else if (selectedAge === '18-24' && selectedConcern === 'acne') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -294,7 +294,7 @@ const Recommendations = () => {
 
     else if (selectedAge === '18-24' && selectedConcern === 'fineLines') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -342,7 +342,7 @@ const Recommendations = () => {
 
     else if (selectedAge === '18-24' && selectedConcern === 'darkSpots') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -388,7 +388,7 @@ const Recommendations = () => {
 
     else if (selectedAge === '18-24' && selectedConcern === 'dryness') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -439,7 +439,7 @@ const Recommendations = () => {
 
     else if (selectedAge === '18-24' && selectedConcern === 'redness') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -488,7 +488,7 @@ const Recommendations = () => {
 
     else if (selectedAge === '25-34' && selectedConcern === 'acne') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -539,7 +539,7 @@ const Recommendations = () => {
 
     else if (selectedAge === '25-34' && selectedConcern === 'fineLines') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -596,7 +596,7 @@ const Recommendations = () => {
 
     else if (selectedAge === '25-34' && selectedConcern === 'darkSpots') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -647,7 +647,7 @@ const Recommendations = () => {
 
     else if (selectedAge === '25-34' && selectedConcern === 'dryness') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -698,7 +698,7 @@ const Recommendations = () => {
 
     else if (selectedAge === '25-34' && selectedConcern === 'redness') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -749,7 +749,7 @@ const Recommendations = () => {
 
     else if (selectedAge === '35-44' && selectedConcern === 'acne') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -800,7 +800,7 @@ const Recommendations = () => {
 
     else if (selectedAge === '35-44' && selectedConcern === 'fineLines') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -854,7 +854,7 @@ const Recommendations = () => {
 
     else if (selectedAge === '35-44' && selectedConcern === 'darkSpots') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -905,7 +905,7 @@ const Recommendations = () => {
 
     else if (selectedAge === '35-44' && selectedConcern === 'dryness') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -956,7 +956,7 @@ const Recommendations = () => {
 
     else if (selectedAge === '35-44' && selectedConcern === 'redness') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -1007,7 +1007,7 @@ const Recommendations = () => {
 
     else if (selectedAge === 'above 45' && selectedConcern === 'acne') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -1058,7 +1058,7 @@ const Recommendations = () => {
 
     else if (selectedAge === 'above 45' && selectedConcern === 'fineLines') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -1112,7 +1112,7 @@ const Recommendations = () => {
 
     else if (selectedAge === 'above 45' && selectedConcern === 'darkSpots') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -1163,7 +1163,7 @@ const Recommendations = () => {
 
     else if (selectedAge === 'above 45' && selectedConcern === 'dryness') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -1214,7 +1214,7 @@ const Recommendations = () => {
 
     else if (selectedAge === 'above 45' && selectedConcern === 'redness') {
       return (
-        <div className="p-7">
+        <div className="p-7 animate-slide-right">
           <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
             <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
@@ -1271,7 +1271,7 @@ const Recommendations = () => {
   return (
     <>
       <div className="m-8 -mt-16 lg:pt-20 lg:m-16">
-        <h1 className="text-4xl lg:text-5xl font-bold underline underline-offset-8" style={{ fontFamily: "'Cinzel', serif" }}>Recommended Skin Care:</h1>
+        <h1 className="text-4xl lg:text-5xl font-bold underline underline-offset-8 animate-slide-right" style={{ fontFamily: "'Cinzel', serif" }}>Recommended Skin Care:</h1>
       </div>
 
       <div className="lg:m-16 rounded-3xl text-center text-white" style={{ backgroundImage: `url(${'https://images.pexels.com/photos/3733925/pexels-photo-3733925.jpeg?auto=compress&cs=tinysrgb&w=1280'})` }}>

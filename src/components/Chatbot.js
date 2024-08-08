@@ -69,7 +69,6 @@ const Chatbot = () => {
     "dark spots": "To fade dark spots, use products containing ingredients like vitamin C, niacinamide, or hydroquinone. Exfoliation can also help. However, it's important to be patient as dark spots can take time to fade.",
     "what causes dark spots?": "Dark spots, also known as hyperpigmentation, can be caused by sun damage, acne, injury, or hormonal changes.",
     "causes of dark spots?": "Dark spots, also known as hyperpigmentation, can be caused by sun damage, acne, injury, or hormonal changes.",
-    "what causes dark spots?": "Dark spots, also known as hyperpigmentation, can be caused by sun damage, acne, injury, or hormonal changes.",
     "how can i hydrate my dry skin?": "To hydrate dry skin, use a gentle cleanser, avoid hot showers, and apply a thick moisturizer immediately after showering. Look for moisturizers containing hyaluronic acid and ceramides.",
     "what causes dry skin?": "Dry skin can be caused by several factors, including cold weather, low humidity, frequent bathing, and certain medications.",
     "what causes dry skin": "Dry skin can be caused by several factors, including cold weather, low humidity, frequent bathing, and certain medications.",

@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <>
         <div className='grid grid-cols-2 lg:grid-cols-3 grid-rows-2 lg:grid-rows-subgrid bg-[#e6e3e3] text-white pb-4' style={{ backgroundImage: `url('https://images.pexels.com/photos/1158394/pexels-photo-1158394.jpeg?auto=compress&cs=tinysrgb&w=1280')` }}>
-            <div className="flex items-center flex-shrink-0 text-white lg:mr-8 col-span-2">
+            <div className="flex items-center flex-shrink-0 text-white lg:mr-8 col-span-2 hover:transition-colors">
                 {/* <img className='w-16 lg:w-20 block ' src={logo} alt="" />  */}
                 <span style={{fontFamily: "'Cinzel', serif"}} className="font-semibold italic text-4xl lg:pt-10 pl-10 tracking-tight text-white">Dermislumina</span>
             </div>
