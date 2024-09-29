@@ -15,7 +15,7 @@ const Chatbot = () => {
       if (inputValue.toLowerCase() === 'hi' || inputValue.toLowerCase() === 'hello') {
         setIsGreetingEntered(true); // User has entered a valid greeting
         setMessages((prevMessages) => [
-          ...prevMessages, 'Type your question below.' // Welcome message
+          ...prevMessages, 'Please enter your skin concern.\n For example, give the prompt as "acne" or "how can i prevent acne?" and so on...' // Welcome message
         ]);
       } else {
         // Prompt for greeting if not valid
@@ -70,7 +70,7 @@ const Chatbot = () => {
     "is it safe to use retinol every night?": "Retinol can be irritating, especially for sensitive skin. Start by using it once or twice a week and gradually increase the frequency as your skin tolerates it. Always apply a moisturizer afterwards.",
 
     // Skin concern based
-    "how can i prevent acne breakouts?": "To prevent acne, cleanse your face twice daily with a gentle cleanser, avoid touching your face, and use oil-free products. Consider using products with salicylic acid or benzoyl peroxide to help clear existing breakouts.",
+    "how can i prevent acne?": "To prevent acne, cleanse your face twice daily with a gentle cleanser, avoid touching your face, and use oil-free products. Consider using products with salicylic acid or benzoyl peroxide to help clear existing breakouts.",
     "acne": "To prevent acne, cleanse your face twice daily with a gentle cleanser, avoid touching your face, and use oil-free products. Consider using products with salicylic acid or benzoyl peroxide to help clear existing breakouts.",
     "what are the best home remedies for acne scars?": "While home remedies can help improve the appearance of acne scars, it's important to be patient. Aloe vera, honey, and vitamin E oil are often used, but results may vary. For more significant scars, consider consulting a dermatologist.",
     "what are the best home remedies for acne?": "While home remedies can help improve the appearance of acne scars, it's important to be patient. Aloe vera, honey, and vitamin E oil are often used, but results may vary. For more significant scars, consider consulting a dermatologist.",
@@ -172,7 +172,7 @@ const Chatbot = () => {
               ref={messagesRef}
             >
               {messages.map((message, index) => (
-                <div key={index} className={`${index % 2 === 1 ? "bg-gray-100" : "bg-gray-300"} ${index % 2 === 1 ? "ml-20" : "mr-20"} p-4 rounded mb-4`}>
+                <div key={index} className={`${index % 2 === 0 ? "bg-gray-100" : "bg-gray-300"} ${index % 2 === 0 ? "ml-20" : "mr-20"} p-4 rounded mb-4`}>
                   <p className="text-gray-600">{message}</p>
                 </div>
               ))}
