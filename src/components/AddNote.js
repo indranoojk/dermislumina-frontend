@@ -57,7 +57,7 @@ const AddNote = (props) => {
                     </div>
                     <br />
                     <div>
-                        <button disabled={note.title.length<5 || note.description.length<10 } type='submit' className='bg-[#c67981] disabled:bg-[#634548] disabled:text-gray-400 ml-20 lg:ml-20 px-12 lg:px-16 py-3 border-2 border-[white shadow-sm hover:shadow-xl shadow-[#f5f2f2] focus:outline-none focus:shadow-outline-blue' onClick={handleClick}> SUBMIT </button>
+                        <button disabled={note.title.length<5 || note.description.length<10 } type='submit' className='bg-[#c67981] disabled:bg-[#634548] disabled:text-gray-400 ml-20 lg:ml-20 px-12 lg:px-16 py-3 border-2 border-[white shadow-sm hover:shadow-xl shadow-[#f5f2f2] focus:outline-none focus:shadow-outline-blue disabled:cursor-not-allowed cursor-pointer' onClick={handleClick}> SUBMIT </button>
                     </div>
                 </div>
             </div>
